@@ -1,5 +1,5 @@
 # learning-from-power-signals
-OSG to Cyclic Histogram code
+OSG to Cyclic Histogram project
 
 Developed by Joshua H. Tyler, Dr. Donald R. Reising, and Johnathan Boyd at the University of Tennessee at Chattanooga
 
@@ -13,6 +13,9 @@ Christopher Lackner and Erika Wills, Grid Protection Alliance
 
 #================================================================================================================
 
+This project was developed to convert continuous, OScilloGraphy (OSG) data into small, actionable histograms saved as CSV files. The histogram types include: (i) cyclic, (ii) residual, (iii) frequency, and (iv) RMS. All code is written in phython and compiled into an executible using pythoninstaller. The .exe file will be found under "dist/[project type]/[project type].exe. To accellerate computation, each function is compiled and cached using the Numba library. Example data is included with the ideal visual output for reference.
+
+#================================================================================================================
 #DISCLAIMER: THIS IS A BETA RELEASE AND NOT INTENDED FOR DEPLOYMENT. DEPLOYMENT OF THIS VERSION IS STRONGLY DISCOURAGED AND THE AUTHORS CLAIM NO RESPONSIBILITY FOR ISSUES CAUSED BY USING THIS SOFTWARE.
 
 #Copyright 2021 University of Tennessee/University of Tennessee Research Foundation
